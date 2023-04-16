@@ -1,6 +1,6 @@
-# FileSystemAPI
+# FileSystem API
 
-Beginner level task for practicing FileSystemAPI.
+Beginner level task for practicing FileSystem API.
 
 Estimated time to complete the task - 1.5h.
 

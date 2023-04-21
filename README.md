@@ -75,8 +75,7 @@ Implement the [DeleteSubDirectoryValidateSubDirectoryDeletedOrNot](FileSystem/Di
 Implement the [MoveSubDirectoryValidateSubDirMovedOrNot](FileSystem/DirectoryOperations.cs#L37) method, so it could delete the subdirectory in specified path. Use the [DirectoryMove](https://learn.microsoft.com/en-us/dotnet/api/system.io.directory.move) method to move subdirectory to specified path.
 
 ##### See also
-
-*  .NET API
+.NET API
   * [File.Create](https://learn.microsoft.com/en-us/dotnet/api/system.io.file.create)
   * [File.WriteAllLines](https://learn.microsoft.com/en-us/dotnet/api/system.io.file.writealllines)
   * [File.ReadLines](https://learn.microsoft.com/en-us/dotnet/api/system.io.file.readlines)

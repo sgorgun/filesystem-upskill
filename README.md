@@ -78,10 +78,10 @@ Implement the [MoveSubDirectoryValidateSubDirMovedOrNot](FileSystem/DirectoryOpe
 
 * C# Language Reference
   * [File.Create](https://learn.microsoft.com/en-us/dotnet/api/system.io.file.create)
-  * https://learn.microsoft.com/en-us/dotnet/api/system.io.file.writealllines
-  * https://learn.microsoft.com/en-us/dotnet/api/system.io.file.readlines
-  * https://learn.microsoft.com/en-us/dotnet/api/system.io.file.move
-  * https://learn.microsoft.com/en-us/dotnet/api/system.io.directory.createdirectory
-  * https://learn.microsoft.com/en-us/dotnet/api/system.io.directory.move
-  * https://learn.microsoft.com/en-us/dotnet/api/system.io.directory.delete
+  * [File.WriteAllLines](https://learn.microsoft.com/en-us/dotnet/api/system.io.file.writealllines)
+  * [File.ReadLines](https://learn.microsoft.com/en-us/dotnet/api/system.io.file.readlines)
+  * [File.Move](https://learn.microsoft.com/en-us/dotnet/api/system.io.file.move)
+  * [Directory.CreateDirectory](https://learn.microsoft.com/en-us/dotnet/api/system.io.directory.createdirectory)
+  * [Directory.Move](https://learn.microsoft.com/en-us/dotnet/api/system.io.directory.move)
+  * [Directory.Delete](https://learn.microsoft.com/en-us/dotnet/api/system.io.directory.delete)
 

@@ -8,38 +8,33 @@ namespace FileSystem
     {
         public static void CreatingFileAndReturnFilePath(string filePath)
         {
-            // TODO Implement the method.
-            throw new NotImplementedException();
+            File.Create(filePath).Close();
         }
 
         public static void WriteTextToFileReadAppendedText(string filePath, string msgToWrite)
         {
-            // TODO Implement the method.
-            throw new NotImplementedException();
+            using StreamWriter sw = File.AppendText(filePath);
+            sw.WriteLine(msgToWrite);
         }
 
         public static string ReadingFileContentAndValidateText(string filePath)
         {
-            // TODO Implement the method.
-            throw new NotImplementedException();
+            return File.ReadAllText(filePath);
         }
 
         public static void MoveFileFromOneFolderToNewFolderAndValidateFile(string filePath, string destinationPath)
         {
-            // TODO Implement the method.
-            throw new NotImplementedException();
+            File.Move(filePath, destinationPath);
         }
 
         public static void CopyFileFromOneFolderToNewFolder(string filePath, string destinationPath)
         {
-            // TODO Implement the method.
-            throw new NotImplementedException();
+            File.Copy(filePath, destinationPath);
         }
 
         public static void DeleteFileAndValidateFileExistOrNot(string filePath)
         {
-            // TODO Implement the method.
-            throw new NotImplementedException();
+            File.Delete(filePath);
         }
     }
 }

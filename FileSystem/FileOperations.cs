@@ -1,5 +1,3 @@
-using System.IO;
-
 [assembly: CLSCompliant(false)]
 
 namespace FileSystem
